@@ -1,7 +1,6 @@
 # API REST de Usuários – CRUD com Spring Boot
 
-API desenvolvida em **Java** utilizando **Spring Boot**, que realiza o gerenciamento simples de usuários com operações básicas de criação, leitura, atualização e exclusão (CRUD).  
-O projeto utiliza persistência de dados com **Spring Data JPA** e banco de dados **H2** em memória.
+API desenvolvida em **Java** utilizando **Spring Boot**, que realiza o gerenciamento simples de usuários com operações básicas de criação, leitura, atualização e exclusão (CRUD). O projeto utiliza persistência de dados com **Spring Data JPA** e banco de dados **H2** em memória.
 
 ---
 
@@ -24,7 +23,7 @@ O projeto utiliza persistência de dados com **Spring Data JPA** e banco de dado
 
 ---
 
-## 🚀 Como Funciona
+## Como Funciona
 1. **POST /usuario** → cria um novo usuário no banco com os dados enviados no corpo da requisição.  
 2. **GET /usuario** → retorna todos os usuários cadastrados.  
 3. **GET /usuario/{email}** → busca um usuário específico pelo seu email.  
